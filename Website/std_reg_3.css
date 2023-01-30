@@ -1,0 +1,190 @@
+body {
+    background: #283043;
+    color: #666;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.card {
+    width: 90%;
+    height: 950px;
+    background-color: white;
+    display: inline-block;
+    border-bottom: thin solid #F1F1F1;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 75px;
+}
+
+.title {
+    color: #8b91a0;
+    text-align: center;
+    font-size: large;
+}
+
+.title1 {
+    color: #8b91a0;
+    font-size: 15px;
+}
+
+
+/* main content */
+.container0 {
+    overflow: auto;
+    margin-top: 50px;
+    border: none;
+    width: 95%;
+    margin-left: 30px;
+    border-bottom: 1px solid rgb(202, 205, 185);
+    border-top: 1px solid rgb(202, 205, 185);
+    background-color: white;
+}
+
+.content0 div {
+    padding: 10px;
+}
+
+video {
+    width: 495px;
+    margin-left: 2px;
+    margin-top: 2px;
+    height: 395px;
+    object-fit: cover;
+}
+
+.camera {
+    margin-top: 50px;
+    margin-left: 3%;
+    width: 500px;
+    height: 400px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.content {
+    overflow: auto;
+    margin-top: 30px;
+    margin-left: 35px;
+    width: 95%;
+    height: 750px;
+    border: 1px solid rgb(202, 205, 185);
+    border-radius: 10px;
+    background-color: rgb(247, 250, 231);
+}
+
+.cam_btn {
+    margin-left: 20%;
+    margin-top: 5px;
+}
+
+.form_input {
+    margin-top: -50%;
+    margin-left: 50%;
+}
+
+
+.label {
+    font-size: 25px;
+    color: #666;
+}
+
+.uid_input1{
+    margin-top: -65px;
+}
+
+.label1 {
+    margin-left: 300px;
+    font-size: 25px;
+    color: #666;
+}
+
+input[type="text"] {
+    display: block;
+    color: #666;
+    text-align: justiy;
+}
+
+.btn_green {
+    background-color: #1fbba6;
+    border-color: #1ba593;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition: 0.3s;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.btn_green:hover {
+    background-color: #1ba593;
+    border-color: #168173;
+    color: white;
+}
+
+.btn_green1 {
+    background-color: #1fbba6;
+    border-color: #1ba593;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    transition: 0.3s;
+    /* margin-top: 50px; */
+    /* margin-left: 250px; */
+}
+
+.btn_green1:hover {
+    background-color: #1ba593;
+    border-color: #168173;
+    color: white;
+}
+
+.std_class{
+    width: 500px;
+    height: 30px;
+}
+
+.std_uid{
+    margin-left: 300px;
+    width: 200px;
+    height: 30px;
+}
+
+.std_div{
+    width: 200px;
+    height: 30px;
+}
+
+canvas{
+    margin-top: 100px;
+    border: 1px solid #283043;
+}
+
+.img{
+    margin-bottom: -100px;
+}
+
+.buttonload {
+    background-color: #04AA6D;
+    /* Green background */
+    border: none;
+    /* Remove borders */
+    color: white;
+    /* White text */
+    padding: 12px 24px;
+    /* Some padding */
+    font-size: 16px;
+    /* Set a font-size */
+}
+
+/* Add a right margin to each icon */
+.fa {
+    margin-left: -12px;
+    margin-right: 8px;
+}

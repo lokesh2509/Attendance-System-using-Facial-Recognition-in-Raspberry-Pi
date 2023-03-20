@@ -1,0 +1,32 @@
+
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Delete Attendance - Admin</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="modify_atd.css">
+        </head>
+        <body>
+            <div class="header">
+            <img src="images/banner.jpg" alt="TCSC Banner" width="1400" height="150" class="img">
+        </div>
+        <form id="msform" method="post" action="delete_atd.php">
+            <fieldset>
+                <h3 class="fs-title">Class Modify Attendance List</h3>
+                
+                Date: <input type ="date" name="date" required><br><br>
+                UID <input type="text" name="UID" required><br>
+
+                <input type="submit" class="action-button" value="Modify Attendance" name="give_atd_class_a"> 
+
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+** {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #ff6633;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#msform {
+    width: 900px;
+    margin: 50px auto;
+    position: relative;
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+    position: relative;
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+#msform input,
+#msform textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+}
+
+#msform .action-button {
+    width: 100px;
+    background: #ff6633;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+.fs-title {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ff6633;
+    margin-bottom: 10px;
+
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #ff6633;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+a:link,
+a:visited {
+    background-color: #ff6633;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: red;
+}
+
+.txt_border {
+    border-style: outset;
+}
+
+.img {
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+}

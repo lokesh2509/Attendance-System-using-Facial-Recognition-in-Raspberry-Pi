@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.heading {
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.heading1 {
+    padding: 30px;
+    text-align: center;
+    background: white;
+    color: #ff6633;
+}
+
+.heading h1 {
+    font-size: 50px;
+}
+
+
+.heading h5 {
+    font-size: 30px;
+}
+
+.heading1 h5 {
+    font-size: 30px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #ff6633;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.cards {
+    margin-top: 50px;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    grid-auto-rows: auto;
+
+    grid-gap: 1rem;
+
+}
+
+
+.card {
+
+    border: 2px solid #e7e7e7;
+
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 100%;
+
+}
+
+
+#msform {
+    width: 900px;
+    margin: 50px auto;
+    text-align: center;
+    position: relative;
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+    position: relative;
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+#msform input,
+#msform textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+}
+
+#msform .action-button {
+    width: 300px;
+    background: #ff6633;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+.fs-title {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ff6633;
+    margin-bottom: 10px;
+
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #ff6633;
+    margin-bottom: 20px;
+}

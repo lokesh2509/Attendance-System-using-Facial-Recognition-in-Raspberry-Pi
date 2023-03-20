@@ -1,0 +1,10 @@
+CREATE TABLE std_reg (uid varchar(20), name varchar(50), class varchar(100), std_div varchar(50), phone_no varchar(50), email varchar(50), pass varchar(50));
+CREATE TABLE fac_reg (fac_id varchar(20), name varchar(50), phone_no varchar(50), email varchar(50), pass varchar(50));
+CREATE TABLE adm_reg (adm_id varchar(20), name varchar(50), phone_no varchar(50), email varchar(50), pass varchar(50));
+
+CREATE TABLE std__face_reg (uid varchar(50), face_url longtext);
+
+CREATE TABLE feedback (email varchar(50), name varchar(50), admission varchar(50), counselling varchar(50), work_culture varchar(50), college_website varchar(50), evaluation varchar(50), soft_skills varchar(50), infrastructure varchar(50), syllabus varchar(50), canteen varchar(50), placements varchar(50), comment varchar(500));
+CREATE TABLE attendance (uid varchar(20), class varchar(100), div_input varchar(50),  atd_date varchar(50), subject varchar(200), attendance_input varchar(50));
+
+CREATE TABLE fac_attendance(fac_id varchar(20), date varchar(50), attendance varchar(50));
